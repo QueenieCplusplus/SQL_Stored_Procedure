@@ -2,7 +2,7 @@
 預存程序
 
 
-# Stored Procedure
+# Stored Procedure 預存程序
 
     -- to define param as IN, INOUT, or OUT.
     -- to seperate the param by using comma.
@@ -21,3 +21,7 @@
         end if
 
     END
+    
+# Insert-Statement 輸入語句
+
+Insert INTO tabel_name (col) values(val)

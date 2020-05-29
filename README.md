@@ -8,7 +8,7 @@
     -- to seperate the param by using comma.
     -- then to declaire the data type of the param.
 
-    create pro_foo_name (IN a int, IN b int)
+    create pro_foo_name (param)
     language SQL
 
     BEGIN

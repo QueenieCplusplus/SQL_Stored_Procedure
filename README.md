@@ -24,4 +24,4 @@
     
 # Insert-Statement 輸入語句
 
-Insert INTO tabel_name (col) values(val)
+    Insert INTO tabel_name (col) values(val)

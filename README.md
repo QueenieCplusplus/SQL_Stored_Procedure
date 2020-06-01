@@ -4,6 +4,8 @@
 # Start SQL Server
 
     mysql -u root -p
+    
+    /r
 
 
 # Stored Procedure 預存程序

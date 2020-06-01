@@ -33,6 +33,20 @@
 
     END
     
+# Example.sql
+
+    CREATE PROCEDURE `uspExample`(
+        id int /* 備註說明 */
+    )
+    BEGIN
+
+        select tA.userId, tA.news
+        from aTable as tA
+        where tA.userId = id;
+    End
+    
+    # 備註說明
+    
 # Insert-Statement 輸入語句
 
     Insert INTO tabel_name (col) values(val)

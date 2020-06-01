@@ -3,7 +3,9 @@
 
 # Start SQL Server
 
-    mysql -u root -p
+    mysql -u < account name > -p < port number > -h <IP>
+    
+    //port number including 3306 and 3307 
     
     /r
 

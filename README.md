@@ -1,6 +1,10 @@
 # SQL_Stored_Procedure
 預存程序
 
+# Start SQL Server
+
+    mysql -u root -p
+
 
 # Stored Procedure 預存程序
 

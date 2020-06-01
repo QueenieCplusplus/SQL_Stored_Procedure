@@ -8,6 +8,8 @@
     //port number including 3306 and 3307 
     
     /r
+    
+    /q
 
 
 # Stored Procedure 預存程序
@@ -17,7 +19,6 @@
     -- then to declaire the data type of the param.
 
     create pro_foo_name (param)
-    language SQL
 
     BEGIN
 

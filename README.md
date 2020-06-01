@@ -14,6 +14,8 @@
 
 # Stored Procedure 預存程序
 
+  Set Schema to Default, then start to code in Script.
+
     -- to define param as IN, INOUT, or OUT.
     -- to seperate the param by using comma.
     -- then to declaire the data type of the param.

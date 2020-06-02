@@ -84,6 +84,14 @@
 
     END
     
+# call function / call stored procedure 呼叫函數或呼叫預存函數
+
+    call ups_name(input)
+
+    call ups_name('input')
+
+    call ups_name("input")
+  
 # Insert-Statement 輸入語句
 
     Insert INTO tabel_name (col) values(val)

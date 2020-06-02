@@ -1,6 +1,14 @@
 # SQL_Stored_Procedure
 預存程序
 
+# Check Whitelist for me
+
+    check my present IP addr by browsing the google
+
+    search the key word:
+
+    "which is my (public) IP"
+
 # Start SQL Server
 
     mysql -u < account name > -p < port number > -h <IP>

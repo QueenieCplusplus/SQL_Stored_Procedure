@@ -63,6 +63,19 @@
         FROM orderDetails;
     END
     
+# Example3.sql 
+
+    CREATE DEFINER=`account_name`@`my_ip_now` PROCEDURE `upsTest`(
+        Id int /* or using varchar data type */
+    )
+    BEGIN
+
+        select u.lineId, u.userId, u.userName, u.createTime, u.feeCharged, u.RedPoint 
+        from user as u
+        where u.lineId = lineId;
+
+    END
+    
 # Insert-Statement 輸入語句
 
     Insert INTO tabel_name (col) values(val)

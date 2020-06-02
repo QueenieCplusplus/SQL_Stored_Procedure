@@ -12,7 +12,7 @@
     /q
 
 
-# Stored Procedure 預存程序
+# Create Stored Procedure 建立預存程序
 
   Set Schema to Default, then start to code in Script.
 
@@ -32,6 +32,10 @@
         end if
 
     END
+    
+# Alter Stored Procedure 變更現存的預存函數
+
+ https://www.mysqltutorial.org/mysql-stored-procedure/alter-stored-procedure/
     
 # Example.sql
 

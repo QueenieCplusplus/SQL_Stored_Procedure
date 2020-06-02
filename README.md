@@ -36,6 +36,8 @@
 # Alter Stored Procedure 變更現存的預存函數
 
  https://www.mysqltutorial.org/mysql-stored-procedure/alter-stored-procedure/
+ 
+* Right-click the stored procedure that you want to change and select Alter Stored Procedure.
     
 # Example.sql
 
@@ -50,6 +52,16 @@
     End
     
     # 備註說明
+    
+    
+# Example2.sql
+
+    CREATE PROCEDURE GetOrderAmount()
+    BEGIN
+        SELECT 
+            SUM(quantityOrdered * priceEach) 
+        FROM orderDetails;
+    END
     
 # Insert-Statement 輸入語句
 
